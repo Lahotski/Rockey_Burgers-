@@ -1,7 +1,32 @@
-head, body{
-    background-image: url("../img/burger-hero.jpg");
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.hero-image {
+    background: inherit;
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+    top: 65px;
+    left: 1%;
+    right: 16px;
+    position: absolute;
+    overflow: hidden;
+    filter: blur(5px);
+}
+.hero-text {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    position: flex;
+    top: 75px;
+    left: 50%;
+    transform: translate(-50%, -5%);
 }
 img, h1{
+    align-content: center;
     display: block;
      margin-left: auto;
      margin-right: auto;
@@ -15,11 +40,11 @@ ul {
     background-color:chocolate;
      }
 
-    li {
+li {
     float: left;
     }
 
-    li a {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -27,11 +52,32 @@ ul {
     text-decoration: none;
      }
 
-    li a:hover {
+li a:hover {
     background-color:coral;
     }
 
-    .active {
+.active {
     background-color:darkorange;
     color: white;
     }
+.top, .bottom, .left, .right {
+        position: fixed;
+        }
+.left, .right {
+        top: 0;
+        bottom: 0;
+        width: 15px;
+    }
+.left { left: 0; }
+.right { right: 0; }
+            
+.top, .bottom {
+    left: 0;
+    right: 0;
+    height: 500px;
+    }
+.top { top: 0; }
+.bottom { bottom: 0; }
+h1, h2 {
+    color: yellow;
+}
