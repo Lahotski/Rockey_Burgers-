@@ -3,14 +3,14 @@
     <head>
         <title>Questions</title>
         <link rel="stylesheet" href="../CSS/Questions.css">
-            <ul>
-                <li><nav><a href="../HTML/Index.html">Home</a></nav></li>
-                <li><nav><a href="../HTML/About.html">About</a></nav></li>
-                <li><nav><a href="../HTML/FoodMenu.html">Food Menu</a></nav></li>
-                <li><nav><a href="../HTML/UtahLocations.html">Utah Locations</a></nav></li>
-                <li><nav><a class="active" href="../HTML/Questions.html">Questions</a></nav></li>
-                <li><nav><a href="../HTML/Jobs.html">Jobs</a></nav></li>
-            </ul>
+        <ul>
+            <li><nav><a href="../HTML/Index.html">Home</a></nav></li>
+            <li><nav><a href="../HTML/About.html">About</a></nav></li>
+            <li><nav><a href="../HTML/FoodMenu.html">Food Menu</a></nav></li>
+            <li><nav><a href="../HTML/UtahLocations.html">Utah Locations</a></nav></li>
+            <li><nav><a class="active" href="../HTML/Questions.html">Questions</a></nav></li>
+            <li><nav><a href="../HTML/Jobs.html">Jobs</a></nav></li>
+        </ul>
         <h1 class="hero-text">Frequently Asked Questions</h1>
     </head>
     <body>
@@ -32,22 +32,24 @@
                         var x = document.getElementById("beef");
                         if (x.style.display === "none") {
                             x.style.display = "block";
-                            } else {
+                            } 
+                            else {
                             x.style.display = "none";
                             }
                         }
-                            </script>
+                </script>
                 <h2>Why is your Rockey Burgers so Expensive?</h2>
                 <button onclick="Pay()">Answer</button>
-            <div id="pay">
-                <h3>We focus on making meals with thebest and freshest ingredients, like humanely-raised beef that is ground fresh each day, organic chicken, and Rockey Family Dairy’s organic cream for our ice cream cones, sundaes and shakes.</h3>
-            </div>
+                <div id="pay">
+                    <h3>We focus on making meals with thebest and freshest ingredients, like humanely-raised beef that is ground fresh each day, organic chicken, and Rockey Family Dairy’s</h3>
+                    <h3>organic cream for our ice cream cones, sundaes and shakes.</h3>
+                </div>
                 <h2>Where does your beef come from?</h2>
                 <button onclick="Beef()">Answer</button>
-            <div id="beef">
-            <h3>We source our humanely-raised, vegetarian-fed beef from local, family-owned ranches. We use an 85% to 15% protein to fat blend, a mixture of the lean protein and the marbling found on in a cut of steak for our ground beef. The mixture is ground daily, and thus, our burgers taste so amazing.</h3>
+                <div id="beef">
+                    <h3>We source our humanely-raised, vegetarian-fed beef from local, family-owned ranches. We use an 85% to 15% protein to fat blend, a mixture of the lean protein and the marbling found on in a cut of steak for our ground beef. The mixture is ground daily, and thus, our burgers taste so amazing.</h3>
+                </div>
             </div>
-            </div>
-            </div>
+        </div>
     </body>
 </html>

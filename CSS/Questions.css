@@ -17,7 +17,7 @@
     text-align: left;
     position: flex;
     top: 75px;
-    left: 50%;
+    left: 52%;
     transform: translate(-50%, -5%);
 }
 ul {
@@ -55,5 +55,5 @@ ul {
         display: none;
     }
    h1, h2, h3 {
-       color: yellow;
+       color: #6375ff;
    }

@@ -9,16 +9,15 @@
     right: 16px;
     position: absolute;
     overflow: hidden;
-    filter: blur(5px);
+    filter: blur(6px);
 }
 .hero-text,h1 {
-    color: yellow;
+    color: #6375ff;
     position: relative;
     z-index: 1;
     text-align: left;
-    position: flex;
     top: 75px;
-    left: 50%;
+    left: 51%;
     transform: translate(-50%, -5%);
 }
 ul {
@@ -32,7 +31,6 @@ ul {
     li {
     float: left;
     }
-
     li a {
     display: block;
     color: white;
@@ -40,7 +38,6 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
      }
-
     li a:hover {
     background-color:coral;
     }
@@ -51,12 +48,14 @@ ul {
     }
     table {
         border-collapse: collapse;
-        width: 100%;
+        width: 95%;
     }
-    
     td, th {
-        color: yellow;
-        border: 1px solid blue;
-        text-align: left;
+        color: #6375ff;
+        border: 11px solid #873cff;
+        text-align: center;
         padding: 10px;
+        align-content: center;
+        position: relative;
+        left: 30px;
     }
