@@ -7,7 +7,7 @@
     content: '';
     top: 65px;
     left: 1%;
-    right: 14px;
+    right: 16px;
     position: absolute;
     overflow: hidden;
     filter: blur(5px);
@@ -17,8 +17,8 @@
     z-index: 1;
     text-align: left;
     position: flex;
-    top: 60px;
-    left: 50.6%;
+    top: 75px;
+    left: 51%;
     transform: translate(-50%, -5%);
 }
 ul {
@@ -50,5 +50,5 @@ ul {
     color: white;
     }
 p, h1{
-        color: #6375ff;
+        color: yellow;
     }
