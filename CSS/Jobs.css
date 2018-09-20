@@ -15,11 +15,11 @@
     position: relative;
     z-index: 1;
     text-align: left;
-    position: flex;
     top: 30px;
     left: 50%;
     transform: translate(-50%, -5%);
-    color: yellow;
+    color: #6375ff;
+    padding: 10px;
 }
 ul {
     list-style-type: none;
@@ -48,7 +48,4 @@ ul {
     .active {
     background-color:darkorange;
     color: white;
-    }
-    h1, h2, {
-        color: yellow;
     }

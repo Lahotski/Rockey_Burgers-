@@ -55,8 +55,8 @@ ul {
     h2 {
         font-weight: bold;
         text-decoration: underline;
-        color: yellow;
+        color: #6375ff;
     }
 dl, p, h3, strong {
-    color: yellow;
+    color: #6375ff;
 }
