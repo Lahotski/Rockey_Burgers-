@@ -1,7 +1,6 @@
 .hero-image {
     background: inherit;
-    background-position: auto;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat; 
     background-position: center;
     content: '';
     top: 65px;
@@ -9,15 +8,14 @@
     right: 16px;
     position: absolute;
     overflow: hidden;
-    filter: blur(5px);
+    filter: blur(15px);
 }
-.hero-text,h1 {
-    color: yellow;
-    position: relative;
+.hero-text {
+    color: #6375ff;
     z-index: 1;
-    text-align: left;
-    position: flex;
-    top: 75px;
+    text-align: center;
+    position: absolute;
+    top: 90px;
     left: 50%;
     transform: translate(-50%, -5%);
 }
@@ -27,36 +25,37 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color:chocolate;
-     }
+}
 
-    li {
+li {
     float: left;
-    }
+}
 
-    li a {
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-     }
+}
 
-    li a:hover {
+li a:hover {
     background-color:coral;
-    }
+}
 
-    .active {
+.active {
     background-color:darkorange;
     color: white;
-    }
-    table {
+}
+table {
         border-collapse: collapse;
         width: 100%;
-    }
+}
     
-    td, th {
+td, th {
         color: #6375ff;
-        border: 1px solid blue;
-        text-align: left;
-        padding: 10px;
-    }
+        border: 5px solid blue;
+        text-align: center;
+        padding: 15px;
+        right: 50%;
+}

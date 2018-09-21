@@ -1,24 +1,22 @@
 .hero-image {
     background: inherit;
-    background-position: center ;
+    background-position: center;
     background-repeat: repeat;
-    background-size: contain;
     content: '';
-    top: 65px;
-    left: 1%;
-    right: 16px;
+    top: 70px;
+    left: 20px;
+    right: 20px;
     position: absolute;
     overflow: hidden;
-    filter: blur(5px);
+    filter: blur(15px);
 }
 .hero-text {
     position: relative;
     z-index: 1;
-    text-align: left;
-    align-content: center;
+    text-align: center;
     top: 80px;
     left: 50%;
-    transform: translate(-50%, -5%);
+    transform: translate(-50%, -10%);
     color: #6375ff;
 }
 ul {
@@ -48,4 +46,29 @@ li a:hover {
 .active {
     background-color:darkorange;
     color: white;
+}
+.container {
+    color: #6375ff;
+}
+footer {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    transform: translate(-50%, -5%);
+    left: 52%;
+}
+h1 {
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.container {
+    margin-bottom: 20px;
+}
+.media {
+    align-self: row;
 }
